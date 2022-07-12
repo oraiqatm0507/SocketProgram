@@ -42,7 +42,7 @@ public class Server {
 			            
 	            String inputLine;
 	            while ((inputLine = in.readLine()) != null) {
-	                if (".".equals(inputLine)) {
+	                if ("/end".equals(inputLine)) {
 	                    out.println("Server:Good Bye Client!");
 	                    break;
 	                }

@@ -40,8 +40,8 @@ public class Client {
             
             message = scanner.nextLine();
             
-            if(message.equals(".")){
-                response = client.sendMessage(".");
+            if(message.equals("/end")){
+                response = client.sendMessage("/end");
                 exit = true;
                 break;
                 
