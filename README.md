@@ -6,3 +6,6 @@ If the client sends "." to the server as a message the client will be disconnect
 
 "eclipse-project" Folder holds the server. 
 "Client.java" is an independent script to run a client instance.
+
+Run Server in terminal: 
+$ java socketProgram.SocketMain
